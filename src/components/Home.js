@@ -133,7 +133,7 @@ export default function Home() {
                         <div className='bg-yellow-50 p-5 rounded-xl lg:flex items-center gap-x-3'>
 
                             <div>
-                                <img src={ceo} alt="" className='' />
+                                <img src={ceo} alt="" className='lg:flex mx-auto' />
                             </div>
 
                             <div>
