@@ -338,7 +338,7 @@ export default function Home() {
 
             {/* Trust the Process */}
 
-            <div id='process' className="">
+            <div id='audit' className="">
 
                 <div className="lg:pt-20 pt-5 lg:px-20 px-5 container mx-auto">
 
@@ -449,7 +449,7 @@ export default function Home() {
 
             {/* token distribution */}
 
-            <div className="lg:py-12 py-5 lg:px-20 px-5 container mx-auto">
+            <div id='token' className="lg:py-12 py-5 lg:px-20 px-5 container mx-auto">
 
                 <div className='lg:flex items-center justify-center gap-6'>
 
