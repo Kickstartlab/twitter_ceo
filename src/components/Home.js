@@ -20,8 +20,8 @@ import kaikas from '../assets/kaikas.png';
 import authereum from '../assets/authereum.png';
 import team from '../assets/team.png';
 import swap from '../assets/swap.png';
-import uneven from '../assets/uneven.png';
-import uneven_1 from '../assets/uneven_1.png';
+// import chart_1 from '../assets/chart_1.png';
+// import chart_2 from '../assets/chart_2.png';
 import bg_faq from '../assets/bg_faq.png';
 import twitter from '../assets/twitter_1.png';
 import vector_1 from '../assets/vector_1.png';
@@ -39,11 +39,7 @@ export default function Home() {
     useEffect(() => {
         Aos.init({
             duration: 3000,
-            once: false,
-            easing: 'ease',
-            delay: 350
         });
-        Aos.refresh();
     }, [])
 
     const accordionData = [
@@ -84,7 +80,7 @@ export default function Home() {
                             The CEO is in the House!
                         </h1>
 
-                        <div data-aos="zoom-in" data-aos-delay="350" className="img md:mt-0 mt-12">
+                        <div data-aos="zoom-in" className="img md:mt-0 mt-12">
                             <img src={top} alt="Logo" className='w-9/12 flex mx-auto' />
                         </div>
 
@@ -146,8 +142,8 @@ export default function Home() {
                                 </h3>
                                 <div className='flex justify-between items-center gap-x-8 pt-3'>
 
-                                    <div className='space-y-5'>
-                                        <p className='font-poppins'>
+                                    <div className='space-y-3'>
+                                        <p className='font-poppins text-sm'>
                                             Price in $:
                                         </p>
 
@@ -156,7 +152,7 @@ export default function Home() {
                                     </div>
 
                                     <div className='space-y-5'>
-                                        <p className='font-poppins'>
+                                        <p className='font-poppins text-sm'>
                                             Price in BNB:
                                         </p>
 
@@ -164,7 +160,7 @@ export default function Home() {
                                     </div>
 
                                     <div className='space-y-5'>
-                                        <p className='font-poppins'>
+                                        <p className='font-poppins text-sm'>
                                             updated at:
                                         </p>
 
@@ -475,6 +471,10 @@ export default function Home() {
 
                         <img src={token_1} alt="" className='w-10/12' />
 
+                        {/* <div>
+                            <img src={chart_1} alt="" className='w-10/12' />
+                        </div> */}
+
                     </div>
 
                     <div className='flex flex-col items-center justify-center  gap-y-8'>
@@ -488,6 +488,10 @@ export default function Home() {
                         </p>
 
                         <img src={token_2} alt="" className='w-10/12' />
+
+                        {/* <div>
+                            <img src={chart_2} alt="" className='w-10/12' />
+                        </div> */}
 
                     </div>
 
@@ -775,13 +779,13 @@ export default function Home() {
                         <img src={vector_1} alt="Logo" className='w-10/12' />
                     </div>
 
-                    <div data-aos="fade-up" data-aos-delay="350" className='lg:w-8/12 flex flex-col mx-auto'>
+                    <div data-aos="fade-up" className='lg:w-8/12 flex flex-col mx-auto'>
 
                         <h2 className='text-3xl tracking-wider font-poppins text-center font-semibold text-blue-100'>
                             Frequently asked questions
                         </h2>
 
-                        <div data-aos="zoom-in" data-aos-delay="350" className="accordion space-y-5 py-12">
+                        <div data-aos="zoom-in" className="accordion space-y-5 py-12">
                             {accordionData.map(({ title, content }) => (
                                 <Accordion title={title} content={content} />
                             ))}
