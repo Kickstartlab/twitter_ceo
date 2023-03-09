@@ -140,7 +140,7 @@ export default function Home() {
                                 <h3 className='font-poppins font-semibold text-xl'>
                                     Token current price
                                 </h3>
-                                <div className='flex justify-between items-center gap-x-8 pt-3'>
+                                <div className='flex justify-between items-center md:gap-x-8 gap-x-4 pt-3'>
 
                                     <div className='space-y-3'>
                                         <p className='font-poppins text-sm'>
