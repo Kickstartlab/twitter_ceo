@@ -130,7 +130,7 @@ export default function Home() {
                             BUY TWITTER CEO TOKEN
                         </p>
 
-                        <div className='bg-yellow-50 p-5 rounded-xl flex items-center gap-x-3'>
+                        <div className='bg-yellow-50 p-5 rounded-xl lg:flex items-center gap-x-3'>
 
                             <div>
                                 <img src={ceo} alt="" className='' />
