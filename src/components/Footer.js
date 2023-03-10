@@ -4,6 +4,9 @@ import twitter from '../assets/twitter.png'
 import facebook from '../assets/facebook.png'
 import vimeo from '../assets/vimeo.png'
 import youtube from '../assets/youtube.png'
+import uneven from '../assets/uneven.png'
+import uneven_1 from '../assets/uneven_1.png'
+
 
 
 
@@ -11,13 +14,15 @@ export default function Footer() {
   return (
     <div className="bg-white-100 font-outfit text-blue-100">
 
+      <img src={uneven_1} alt="top" className='bg-black-50 w-full' />
       <div className='bg-black-50 h-44'>
 
       </div>
+      <img src={uneven} alt="top" className='bg-black-50 w-full' />
 
       <footer className='container mx-auto lg:px-20 font-russo px-5'>
 
-        <div className='lg:flex justify-between items-center md:w-9/12 w-full rounded-xl bg-white-100 lg:p-12 p-6 mx-auto lg:-mt-16 -mt-8 shadow-md'>
+        <div className='lg:flex justify-between items-center md:w-9/12 w-full rounded-xl bg-white-100 lg:p-12 p-6 mx-auto lg:-mt-20 -mt-8 shadow-md'>
           <h2 className='md:text-3xl text-xl font-poppins font-semibold text-blue-100'>
             Subscribe for news
           </h2>
@@ -94,6 +99,7 @@ export default function Footer() {
 
         </div>
       </footer>
+
     </div >
 
   )
