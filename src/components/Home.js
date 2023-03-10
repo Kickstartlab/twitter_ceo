@@ -18,6 +18,11 @@ import wallet from '../assets/wallet.png';
 import kaikas from '../assets/kaikas.png';
 import authereum from '../assets/authereum.png';
 import team from '../assets/team.png';
+import team_1 from '../assets/team_1.png';
+import team_2 from '../assets/team_2.png';
+import team_3 from '../assets/team_3.png';
+import team_4 from '../assets/team_4.png';
+
 import swap from '../assets/swap.png';
 import chart_1 from '../assets/chart_1.png';
 import uneven_1 from '../assets/uneven_1.png';
@@ -451,8 +456,8 @@ export default function Home() {
 
                                 <div data-aos='fade-left' className='flex items-center gap-x-2'>
                                     <div className='text-right'>
-                                        <p>40%</p>
-                                        <p>Presale Token</p>
+                                        <p>3%</p>
+                                        <p>Dev</p>
                                     </div>
 
                                     <div>
@@ -471,8 +476,8 @@ export default function Home() {
                                     </div>
 
                                     <div className='text-left'>
-                                        <p>20%</p>
-                                        <p>Liquidity</p>
+                                        <p>40%</p>
+                                        <p>Presale</p>
                                     </div>
                                 </div>
 
@@ -492,7 +497,7 @@ export default function Home() {
 
                             <div className=''>
 
-                                <img src={chart_1} alt="" className='flex mx-auto w-8/12' />
+                                <img src={chart_1} alt="" className='flex mx-auto w-9/12' />
 
                             </div>
 
@@ -500,8 +505,8 @@ export default function Home() {
 
                                 <div data-aos='fade-left' className='flex items-center gap-x-2'>
                                     <div className='text-right'>
-                                        <p>3%</p>
-                                        <p>DEV</p>
+                                        <p>22%</p>
+                                        <p>Liquidity</p>
                                     </div>
 
                                     <div>
@@ -719,94 +724,64 @@ export default function Home() {
 
             {/* Our team */}
 
-            <img src={uneven_1} alt="top" className='bg-black-50' />
-            <div id='team' className="lg:px-20 lg:py-20 py-6 px-5 bg-black-50 text-white-100 relative z-20">
+            <div className='relative z-20'>
+                <img src={uneven_1} alt="top" className='bg-black-50' />
+                <div id='team' className="lg:px-20 lg:py-12 py-6 px-5 bg-black-50 text-white-100">
 
-                <div className='container mx-auto'>
+                    <div className='container mx-auto'>
 
-                    <div className="flex flex-col justify-center items-center gap-y-8">
+                        <div className="flex flex-col justify-center items-center gap-y-8">
 
-                        <h4 className='font-semibold flex items-center gap-2 uppercase'>
-                            <span>
-                                <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <circle cx="5" cy="5" r="5" fill="#00C4F4" />
-                                </svg>
-                            </span>
-                            OUr team
-                            <span>
-                                <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <circle cx="5" cy="5" r="5" fill="#00C4F4" />
-                                </svg>
-                            </span>
-                        </h4>
-                        <h2 className='md:text-4xl text-2xl font-poppins font-semibold lg:w-1/3 text-center'>
-                            The Parnetship Team
-                        </h2>
+                            <h4 className='font-semibold flex items-center gap-2 uppercase'>
+                                <span>
+                                    <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <circle cx="5" cy="5" r="5" fill="#00C4F4" />
+                                    </svg>
+                                </span>
+                                OUr team
+                                <span>
+                                    <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <circle cx="5" cy="5" r="5" fill="#00C4F4" />
+                                    </svg>
+                                </span>
+                            </h4>
+                            <h2 className='md:text-4xl text-2xl font-poppins font-semibold text-center uppercase'>
+                                Parnertship
+                            </h2>
 
 
-                        <div className='grid lg:grid-cols-6 md:grid-cols-3 grid-cols-1 gap-6 items-center justify-center mt-8 pb-16'>
+                            <div className='flex lg:gap-6 gap-3 items-center justify-center mt-8 pb-16'>
 
-                            <div className='space-y-5 text-center'>
-                                <img src={team} alt="" className='flex mx-auto' />
+                                <div className='space-y-5 text-center'>
+                                    <img src={team} alt="" className='flex mx-auto' />
+                                </div>
 
-                                <h3 className='font-poppins font-medium text-xl'>
-                                    Certik
-                                </h3>
+                                <div className='space-y-5 text-center'>
+                                    <img src={team_1} alt="" className='flex mx-auto' />
+                                </div>
 
-                            </div>
+                                <div className='space-y-5 text-center'>
+                                    <img src={team_2} alt="" className='flex mx-auto' />
 
-                            <div className='space-y-5 text-center'>
-                                <img src={team} alt="" className='flex mx-auto' />
+                                </div>
 
-                                <h3 className='font-poppins font-medium text-xl'>
-                                    Bitmart
-                                </h3>
+                                <div className='space-y-5 text-center'>
+                                    <img src={team_3} alt="" className='flex mx-auto' />
+                                </div>
 
-                            </div>
-
-                            <div className='space-y-5 text-center'>
-                                <img src={team} alt="" className='flex mx-auto' />
-
-                                <h3 className='font-poppins font-medium text-xl'>
-                                    Lbank
-                                </h3>
+                                <div className='space-y-5 text-center'>
+                                    <img src={team_4} alt="" className='flex mx-auto' />
+                                </div>
 
                             </div>
-
-                            <div className='space-y-5 text-center'>
-                                <img src={team} alt="" className='flex mx-auto' />
-
-                                <h3 className='font-poppins font-medium text-xl'>
-                                    TDoge
-                                </h3>
-
-                            </div>
-
-                            <div className='space-y-5 text-center'>
-                                <img src={team} alt="" className='flex mx-auto' />
-
-                                <h3 className='font-poppins font-medium text-xl'>
-                                    Pinksale
-                                </h3>
-
-                            </div>
-
-                            <div className='space-y-5 text-center'>
-                                <img src={team} alt="" className='flex mx-auto' />
-
-                                <h3 className='font-poppins font-medium text-xl'>
-                                    Dexview
-                                </h3>
-
-                            </div>
-
                         </div>
+
+
                     </div>
-
-
                 </div>
+                <img src={uneven} alt="top" className='bg-black-50' />
             </div>
-            <img src={uneven} alt="top" className='bg-black-50' />
+
 
             {/* faq section */}
 

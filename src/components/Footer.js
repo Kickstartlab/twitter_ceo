@@ -1,9 +1,9 @@
 import React from 'react'
 import up from '../assets/up.png'
 import twitter from '../assets/twitter.png'
-import facebook from '../assets/facebook.png'
-import vimeo from '../assets/vimeo.png'
-import youtube from '../assets/youtube.png'
+import telegram from '../assets/telegram.png'
+import medium from '../assets/medium.png'
+import redit from '../assets/redit.png'
 import uneven from '../assets/uneven.png'
 import uneven_1 from '../assets/uneven_1.png'
 
@@ -56,22 +56,22 @@ export default function Footer() {
               </ul>
             </nav>
 
-            <div className='flex justify-center gap-8 items-center lg:mt-0 mt-6'>
+            <div className='flex justify-center gap-6 items-center lg:mt-0 mt-6'>
 
-              <a href='/'>
-                <img src={facebook} alt="Facebook" className='' />
-              </a>
-
-              <a href='/'>
+            <a href='/'>
                 <img src={twitter} alt="Twitter" className='' />
               </a>
 
               <a href='/'>
-                <img src={vimeo} alt="Vimeo" className='' />
+                <img src={telegram} alt="Facebook" className='' />
               </a>
 
               <a href='/'>
-                <img src={youtube} alt="Youtube" className='' />
+                <img src={medium} alt="Vimeo" className='' />
+              </a>
+
+              <a href='/'>
+                <img src={redit} alt="Youtube" className='' />
               </a>
 
             </div>
