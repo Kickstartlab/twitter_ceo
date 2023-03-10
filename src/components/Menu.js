@@ -33,15 +33,15 @@ export default function Menu() {
       </div>
 
       <div className="lg:hidden flex items-center justify-between pt-5 font-poppins">
-        <a href="/" className="text-white-100">
-          <h2 className='text-2xl font-poppins font-semibold text-white-100'>
+        <a href="/" className="lg:text-white-100">
+          <h2 className='text-2xl font-poppins font-semibold'>
             Twitter CEO
           </h2>
         </a>
 
         <button onClick={() => setShow(!show)} className="nav cursor-pointer">
 
-          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-6 h-6 text-white-100">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-6 h-6 lg:text-white-100">
             <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"></path>
           </svg>
 

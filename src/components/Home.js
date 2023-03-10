@@ -20,8 +20,10 @@ import kaikas from '../assets/kaikas.png';
 import authereum from '../assets/authereum.png';
 import team from '../assets/team.png';
 import swap from '../assets/swap.png';
-// import chart_1 from '../assets/chart_1.png';
-// import chart_2 from '../assets/chart_2.png';
+import chart_1 from '../assets/chart_1.png';
+import chart_2 from '../assets/chart_2.png';
+import uneven_1 from '../assets/uneven_1.png';
+import uneven from '../assets/uneven.png';
 import bg_faq from '../assets/bg_faq.png';
 import twitter from '../assets/twitter_1.png';
 import vector_1 from '../assets/vector_1.png';
@@ -44,25 +46,25 @@ export default function Home() {
 
     const accordionData = [
         {
-            title: 'What is shiBet  rocket gambling game? ',
-            content: `shiBet rocket gambling game is a type of online casino that allows players to bet on the outcome of multiplier games. The player bets Shiba Inu and can win or lose depending on the outcome of the game. With blockchain technology, these games are transparent and safe for players.`
+            title: 'Lorem Ipsum Dollar here ',
+            content: `Torem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.`
         },
         {
-            title: 'How do I place a bet in the shiBet  rocket game? ',
-            content: `shiBet rocket gambling game is a type of online casino that allows players to bet on the outcome of multiplier games. The player bets Shiba Inu and can win or lose depending on the outcome of the game. With blockchain technology, these games are transparent and safe for players.`
+            title: 'Lorem Ipsum Dollar here ',
+            content: `Torem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.`
         },
         {
-            title: 'Is playing BetShiba  rocket gambling game on mobile safe?  ',
-            content: `shiBet rocket gambling game is a type of online casino that allows players to bet on the outcome of multiplier games. The player bets Shiba Inu and can win or lose depending on the outcome of the game. With blockchain technology, these games are transparent and safe for players.`
+            title: 'Lorem Ipsum Dollar here ',
+            content: `Torem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.`
         },
         {
-            title: 'Can a Rocket Money Game Bring a Real Win? ',
-            content: `shiBet rocket gambling game is a type of online casino that allows players to bet on the outcome of multiplier games. The player bets Shiba Inu and can win or lose depending on the outcome of the game. With blockchain technology, these games are transparent and safe for players.`
+            title: 'Lorem Ipsum Dollar here ',
+            content: `Torem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.`
         }
     ];
 
     return (
-        <div className="bg-white-50 font-outfit overflow-hidden">
+        <div className="bg-white-100 font-outfit overflow-hidden">
 
             {/* top section */}
 
@@ -76,7 +78,7 @@ export default function Home() {
                     <Menu />
                     <div className="flex flex-col justify-center items-center gap-y-12 text-center py-12">
 
-                        <h1 className='md:text-5xl text-3xl font-poppins font-semibold text-white-100'>
+                        <h1 className='md:text-5xl text-3xl font-poppins font-semibold lg:text-white-100'>
                             The CEO is in the House!
                         </h1>
 
@@ -85,7 +87,7 @@ export default function Home() {
                         </div>
 
                         <div className='text-center flex flex-col items-center justify-center gap-y-6'>
-                            <p className='text-2xl text-black-50 lg:w-7/12'>
+                            <p className='md:text-2xl text-xl text-black-50 lg:w-7/12'>
                                 Corem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.
                             </p>
 
@@ -122,6 +124,24 @@ export default function Home() {
 
                     <div className=''>
                         <img src={mobile} alt="" className='sm:flex mx-auto' />
+
+                        {/* <div className='text-center space-y-4 absolute translate-x-24'>
+                            <p className='uppercase text-2xl font-semibold'>
+                                Buy
+                            </p>
+                            <p className='uppercase text-2xl font-semibold'>
+                                TWITTER
+                            </p>
+                            <p className='uppercase text-2xl font-semibold'>
+                                CEO
+                            </p>
+                            <p className='uppercase text-2xl font-semibold'>
+                                token
+                            </p>
+                            <p className='uppercase text-2xl font-semibold'>
+                                today!
+                            </p>
+                        </div> */}
                     </div>
 
                     <div className=''>
@@ -173,7 +193,7 @@ export default function Home() {
 
                         </div>
 
-                        <img src={swap} alt="" className='mt-5' />
+                        <img src={swap} alt="" className='mt-5 flex mx-auto' />
 
                         {/* <div className='bg-yellow-50 p-5 rounded-xl mt-5'>
 
@@ -192,7 +212,7 @@ export default function Home() {
 
 
                                         <svg width="10" height="6" viewBox="0 0 10 6" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M1 1L5 5L9 1" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                            <path d="M1 1L5 5L9 1" stroke="white" strokeWidth="1.5" stroke-linecap="round" stroke-linejoin="round" />
                                         </svg>
 
                                     </div>
@@ -236,7 +256,7 @@ export default function Home() {
 
             {/* why Choose us */}
 
-            {/* <img src={uneven_1} alt="top" className='translate-y-4 bg-black-50' /> */}
+            <img src={uneven_1} alt="top" className='bg-black-50 w-full' />
             <div id='about' className="lg:px-20 lg:py-20 py-6 px-5 bg-black-50 text-white-100">
 
                 <div className='container mx-auto'>
@@ -324,8 +344,9 @@ export default function Home() {
 
                 </div>
             </div>
+            <img src={uneven} alt="top" className='bg-black-50' />
 
-            <div className='w-1/2 rounded-xl bg-white-100 lg:p-12 p-3 flex mx-auto text-center justify-center lg:-mt-16 -mt-8 shadow-md'>
+            <div className='md:w-1/2 rounded-xl bg-white-100 lg:p-12 p-3 flex mx-auto text-center justify-center lg:-mt-16 -mt-8 shadow-md'>
                 <h2 className='md:text-5xl text-xl font-poppins font-semibold text-blue-100'>
                     Trust the Process
                 </h2>
@@ -442,14 +463,13 @@ export default function Home() {
 
             </div>
 
-
             {/* token distribution */}
 
             <div id='token' className="lg:py-12 py-5 lg:px-20 px-5 container mx-auto">
 
                 <div className='lg:flex items-center justify-center gap-6'>
 
-                    <h2 className='lg:text-5xl text-3xl font-poppins text-center font-semibold text-blue-100'>
+                    <h2 className='lg:text-5xl text-2xl font-poppins text-center font-semibold text-blue-100'>
                         TOKEN DISTRIBUTION
                     </h2>
 
@@ -469,15 +489,94 @@ export default function Home() {
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget quam est, elit venenatis nulla.
                         </p>
 
-                        <img src={token_1} alt="" className='w-10/12' />
+                        <img src={token_1} alt="" className='flex mx-auto w-10/12 md:hidden' />
 
-                        {/* <div>
-                            <img src={chart_1} alt="" className='w-10/12' />
-                        </div> */}
+                        <div className='chart_1 md:block hidden'>
+
+                            <div className='flex items-center justify-between gap-x-36 translate-y-24'>
+
+                                <div data-aos='fade-left' className='flex items-center gap-x-2'>
+                                    <div className='text-right'>
+                                        <p>10%</p>
+                                        <p>Presale Token</p>
+                                    </div>
+
+                                    <div>
+                                        <svg width="110" height="31" viewBox="0 0 110 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M0 1H76.8867L109 30" stroke="#636770" strokeWidth="2" strokeDasharray="2 2" />
+                                        </svg>
+                                    </div>
+
+                                </div>
+
+                                <div data-aos='fade-right' className='flex items-center gap-x-2'>
+                                    <div>
+                                        <svg width="123" height="31" viewBox="0 0 123 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M123 1H79.9717H36.9433L0.999999 30" stroke="#636770" strokeWidth="2" strokeDasharray="2 2" />
+                                        </svg>
+                                    </div>
+
+                                    <div className='text-left'>
+                                        <p>30%</p>
+                                        <p>    Token Sales</p>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div data-aos='fade-left' className='flex items-center gap-x-2 absolute mt-36 -ml-6'>
+
+                                <div className='text-right'>
+                                    <p>15%</p>
+                                    <p>Presale Token</p>
+                                </div>
+
+                                <svg width="77" height="2" viewBox="0 0 77 2" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M0 1L41.4315 1L77 1.00001" stroke="#636770" strokeWidth="2" strokeDasharray="2 2" />
+                                </svg>
+                            </div>
+
+                            <div className=''>
+
+                                <img src={chart_1} alt="" className='flex mx-auto w-8/12' />
+
+                            </div>
+
+                            <div className='flex items-center justify-between -translate-y-24'>
+
+                                <div data-aos='fade-left' className='flex items-center gap-x-2'>
+                                    <div className='text-right'>
+                                        <p>20%</p>
+                                        <p>Team & Advisor</p>
+                                    </div>
+
+                                    <div>
+                                        <svg width="101" height="25" viewBox="0 0 101 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M0 24H63.2787L100 1" stroke="#636770" strokeWidth="2" strokeDasharray="2 2" />
+                                        </svg>
+                                    </div>
+
+                                </div>
+
+                                <div data-aos='fade-right' className='flex items-center gap-x-2'>
+                                    <svg width="119" height="29" viewBox="0 0 119 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M119 28H40.2039L0.999997 0.999999" stroke="#636770" strokeWidth="2" strokeDasharray="2 2" />
+                                    </svg>
+
+
+                                    <div className='text-left'>
+                                        <p>25%</p>
+                                        <p>Reserve Fund</p>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
 
                     </div>
 
-                    <div className='flex flex-col items-center justify-center  gap-y-8'>
+                    <div className='flex flex-col items-center justify-center gap-y-8'>
 
                         <h2 className='text-2xl font-poppins text-center font-semibold text-blue-100'>
                             Token Allocation
@@ -487,11 +586,94 @@ export default function Home() {
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget quam est, elit venenatis nulla.
                         </p>
 
-                        <img src={token_2} alt="" className='w-10/12' />
+                        <img src={token_2} alt="" className='flex mx-auto w-10/12 md:hidden' />
 
-                        {/* <div>
-                            <img src={chart_2} alt="" className='w-10/12' />
-                        </div> */}
+                        <div className='chart_2 md:block hidden'>
+
+                            <div className='flex items-center justify-between gap-x-36 translate-y-24'>
+
+                                <div data-aos='fade-left' className='flex items-center gap-x-2'>
+                                    <div className='text-right'>
+                                        <p>20%</p>
+                                        <p>Presale Token</p>
+                                    </div>
+
+                                    <div>
+                                        <svg width="110" height="31" viewBox="0 0 110 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M0 1H76.8867L109 30" stroke="#636770" strokeWidth="2" strokeDasharray="2 2" />
+                                        </svg>
+                                    </div>
+
+                                </div>
+
+                                <div data-aos='fade-right' className='flex items-center gap-x-2'>
+                                    <div>
+                                        <svg width="123" height="31" viewBox="0 0 123 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M123 1H79.9717H36.9433L0.999999 30" stroke="#636770" strokeWidth="2" strokeDasharray="2 2" />
+                                        </svg>
+                                    </div>
+
+                                    <div className='text-left'>
+                                        <p>35%</p>
+                                        <p>Token Sales</p>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div className=''>
+
+                                <div data-aos='fade-left' className='flex items-center gap-x-2 absolute mt-56 -ml-6'>
+                                    <div className='text-right'>
+                                        <p>15%</p>
+                                        <p>Team Advisor</p>
+                                    </div>
+
+                                    <svg width="77" height="2" viewBox="0 0 77 2" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M0 1L41.4315 1L77 1.00001" stroke="#636770" strokeWidth="2" strokeDasharray="2 2" />
+                                    </svg>
+                                </div>
+
+                                <div data-aos='fade-right' className='flex items-center gap-x-2 absolute right-0 mt-56 mr-24'>
+
+                                    <svg width="77" height="2" viewBox="0 0 77 2" fill="none" xmlns="http://www.w3.org/2000/svg" className=''>
+                                        <path d="M0 1L41.4315 1L77 1.00001" stroke="#636770" strokeWidth="2" strokeDasharray="2 2" />
+                                    </svg>
+
+                                    <div className='text-left'>
+                                        <p>12%</p>
+                                        <p>Presale Token</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div className=''>
+
+                                <img src={chart_2} alt="" className='flex mx-auto w-8/12' />
+
+                            </div>
+
+                            <div className='flex items-center justify-between -translate-y-20'>
+
+                                <div className=''>
+
+                                </div>
+
+                                <div data-aos='fade-right' className='flex items-center gap-x-2'>
+                                    <svg width="119" height="29" viewBox="0 0 119 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M119 28H40.2039L0.999997 0.999999" stroke="#636770" strokeWidth="2" strokeDasharray="2 2" />
+                                    </svg>
+
+
+                                    <div className='text-left'>
+                                        <p>18%</p>
+                                        <p>Reserve Fund</p>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
 
                     </div>
 
@@ -510,7 +692,7 @@ export default function Home() {
                         roadmap
                     </p>
 
-                    <h2 className='text-3xl font-poppins text-center font-semibold text-blue-100'>
+                    <h2 className='md:text-3xl text-xl font-poppins text-center font-semibold text-blue-100'>
                         Bigtech Strategy and<br></br> Project Plan
                     </h2>
 
@@ -678,7 +860,7 @@ export default function Home() {
 
             {/* OUr team */}
 
-            {/* <img src={uneven_1} alt="top" className='translate-y-4 bg-black-50' /> */}
+            <img src={uneven_1} alt="top" className='bg-black-50' />
             <div id='team' className="lg:px-20 lg:py-20 py-6 px-5 bg-black-50 text-white-100 relative z-20">
 
                 <div className='container mx-auto'>
@@ -698,7 +880,7 @@ export default function Home() {
                                 </svg>
                             </span>
                         </h4>
-                        <h2 className='md:text-4xl text-3xl font-poppins font-semibold lg:w-1/3 text-center'>
+                        <h2 className='md:text-4xl text-2xl font-poppins font-semibold lg:w-1/3 text-center'>
                             The Leadership Team
                         </h2>
 
@@ -763,11 +945,11 @@ export default function Home() {
 
                 </div>
             </div>
-
+            <img src={uneven} alt="top" className='bg-black-50' />
 
             {/* faq section */}
 
-            <div id='faq' className="">
+            <div id='faq' className="bg-white-50">
 
                 <div data-aos='slide-down' className='absolute right-0 left-0 -mt-32'>
                     <img src={bg_faq} alt="" className='flex mx-auto w-1/2' />
@@ -781,7 +963,7 @@ export default function Home() {
 
                     <div data-aos="fade-up" className='lg:w-8/12 flex flex-col mx-auto'>
 
-                        <h2 className='text-3xl tracking-wider font-poppins text-center font-semibold text-blue-100'>
+                        <h2 className='md:text-3xl text-xl tracking-wider font-poppins text-center font-semibold text-blue-100'>
                             Frequently asked questions
                         </h2>
 

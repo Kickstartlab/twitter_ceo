@@ -17,7 +17,7 @@ export default function Footer() {
 
       <footer className='container mx-auto lg:px-20 font-russo px-5'>
 
-        <div className='lg:flex justify-between items-center w-9/12 rounded-xl bg-white-100 lg:p-12 p-6 mx-auto lg:-mt-16 -mt-8 shadow-md'>
+        <div className='lg:flex justify-between items-center md:w-9/12 w-full rounded-xl bg-white-100 lg:p-12 p-6 mx-auto lg:-mt-16 -mt-8 shadow-md'>
           <h2 className='md:text-3xl text-xl font-poppins font-semibold text-blue-100'>
             Subscribe for news
           </h2>
@@ -36,14 +36,14 @@ export default function Footer() {
           <div className='lg:flex items-center justify-between'>
 
             <nav>
-              <ul className="text-md flex justify-center gap-12 text-lg items-center text-black-50 font-semibold font-Outfit">
+              <ul className="text-md flex justify-center sm:gap-12 gap-4 items-center text-black-50 font-semibold font-Outfit">
                 <li><a href="/" className="text-zinc-100">Home</a></li>
                 <li><a href="#audit" className=" cursor-pointer">Audit</a></li>
                 <li><a href="#token" className="cursor-pointer">Token</a></li>
                 <li><a href="#staking" className="cursor-pointer">Staking</a></li>
               </ul>
 
-              <ul className="text-md flex justify-center gap-12 text-lg items-center mt-6 text-black-50 font-semibold font-Outfit">
+              <ul className="text-md flex justify-center sm:gap-12 gap-4 items-center mt-6 text-black-50 font-semibold font-Outfit">
                 <li><a href="#roadmap" className="cursor-pointer">Roadmap</a></li>
                 <li><a href="#team" className="cursor-pointer">Team</a></li>
                 <li><a href="#faq" className="cursor-pointer">FAQ</a></li>
@@ -73,7 +73,7 @@ export default function Footer() {
 
           </div>
 
-          <div className='lg:flex items-end justify-between pt-12 md:text-center'>
+          <div className='lg:flex items-end justify-between pt-12 md:text-left text-center'>
             <p>
               © Copyrights, {new Date().getFullYear()} Twitter CEO. All Right Recived.
             </p>
