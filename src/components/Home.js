@@ -9,7 +9,6 @@ import logo_1 from '../assets/logo_1.png';
 import logo_2 from '../assets/logo_2.png';
 import logo_3 from '../assets/logo_3.png';
 import token_1 from '../assets/token_1.png';
-import token_2 from '../assets/token_2.png';
 import metamask from '../assets/metamask.png';
 import fortmatic from '../assets/fortmatic.png';
 import bitski from '../assets/bitski.png';
@@ -21,7 +20,6 @@ import authereum from '../assets/authereum.png';
 import team from '../assets/team.png';
 import swap from '../assets/swap.png';
 import chart_1 from '../assets/chart_1.png';
-import chart_2 from '../assets/chart_2.png';
 import uneven_1 from '../assets/uneven_1.png';
 import uneven from '../assets/uneven.png';
 import bg_faq from '../assets/bg_faq.png';
@@ -46,20 +44,20 @@ export default function Home() {
 
     const accordionData = [
         {
-            title: 'Lorem Ipsum Dollar here ',
-            content: `Torem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.`
+            title: 'What is Twitter CEO ? ',
+            content: `Twitter CEO leads innovation meme, drives trends, and connects people worldwide. It sets the tone for social media culture.`
         },
         {
-            title: 'Lorem Ipsum Dollar here ',
-            content: `Torem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.`
+            title: 'How to buy TCEO?',
+            content: <>Buy TCEO at <a href='http://pancakeswap.finance/' className='text-blue-50'>Pancakeswap.finance</a></>
         },
         {
-            title: 'Lorem Ipsum Dollar here ',
-            content: `Torem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.`
+            title: 'How about TAXES?',
+            content: `Tax 10-10 for buy/sell.`
         },
         {
-            title: 'Lorem Ipsum Dollar here ',
-            content: `Torem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.`
+            title: 'Where is TCEO Auditing?',
+            content: `TCEO towards Audit at CertiK.`
         }
     ];
 
@@ -87,8 +85,8 @@ export default function Home() {
                         </div>
 
                         <div className='text-center flex flex-col items-center justify-center gap-y-6'>
-                            <p className='md:text-2xl text-xl text-black-50 lg:w-7/12'>
-                                Corem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.
+                            <p className='text-black-50 lg:w-7/12'>
+                                Elon Musk's admiration for Floki led to him extending an invitation for me to become Twitter's CEO. I'm honored and excited to take on this role and, with the support of the community and Elon Musk's drive, we'll strive to achieve success. The Twitter CEO meme has the same potential for global recognition as Shib and other cryptocurrencies, and we'll work hard to make it a household name. I'm looking forward to this new chapter and the opportunities it brings.
                             </p>
 
                             <div className='flex items-center justify-center gap-x-6'>
@@ -277,22 +275,21 @@ export default function Home() {
                             </span>
                         </h4>
                         <h2 className='md:text-4xl text-3xl font-poppins font-semibold lg:w-1/3 text-center'>
-                            Why you choose our Twitter CEO Token
+                            Why should I own Twitter CEO Token?
                         </h2>
 
 
-                        <div className='grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-8 items-center justify-center mt-6 pb-16'>
+                        <div className='grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-8 justify-center mt-6 pb-16'>
 
                             <div className='space-y-8'>
                                 <img src={p_1} alt="" className='' />
 
-                                <h3 className='font-poppins font-medium lg:w-1/2 text-xl'>
-                                    Lorem Ipsum
-                                    Dollar lieor
+                                <h3 className='font-poppins font-medium text-xl'>
+                                    Access to exclusive benefits.
                                 </h3>
 
                                 <p className='text-gray-50 lg:w-9/12'>
-                                    lorem impusm lorem impusmlorem impusmlorem impusm
+                                    TCEO is fully decentralized and owned by its fun, vibrant community
                                 </p>
 
                             </div>
@@ -300,13 +297,12 @@ export default function Home() {
                             <div className='space-y-8'>
                                 <img src={p_2} alt="" className='' />
 
-                                <h3 className='font-poppins font-medium lg:w-1/2 text-xl'>
-                                    Lorem Ipsum
-                                    Dollar lieor
+                                <h3 className='font-poppins font-medium text-xl'>
+                                    Support for the CEO
                                 </h3>
 
                                 <p className='text-gray-50 lg:w-9/12'>
-                                    lorem impusm lorem impusmlorem impusmlorem impusm
+                                    Elon Musk thinks were pretty cool and invited me to be CEO of Twitter
                                 </p>
 
                             </div>
@@ -314,13 +310,12 @@ export default function Home() {
                             <div className='space-y-8'>
                                 <img src={p_3} alt="" className='' />
 
-                                <h3 className='font-poppins font-medium lg:w-1/2 text-xl'>
-                                    Lorem Ipsum
-                                    Dollar lieor
+                                <h3 className='font-poppins font-medium text-xl'>
+                                    Secured
                                 </h3>
 
                                 <p className='text-gray-50 lg:w-9/12'>
-                                    lorem impusm lorem impusmlorem impusmlorem impusm
+                                    TCEO token secured by advanced encryption, multi-factor authentication, tamper-proof transactions, secure wallets, and stringent identity verification.
                                 </p>
 
                             </div>
@@ -328,13 +323,12 @@ export default function Home() {
                             <div className='space-y-8'>
                                 <img src={p_4} alt="" className='' />
 
-                                <h3 className='font-poppins font-medium lg:w-1/2 text-xl'>
-                                    Lorem Ipsum
-                                    Dollar lieor
+                                <h3 className='font-poppins font-medium text-xl'>
+                                    Experienced team
                                 </h3>
 
                                 <p className='text-gray-50 lg:w-9/12'>
-                                    lorem impusm lorem impusmlorem impusmlorem impusm
+                                    We've had the project xxxx times and it's not hard to do it again
                                 </p>
 
                             </div>
@@ -367,10 +361,6 @@ export default function Home() {
                             <h3 className='font-poppins font-medium text-xl'>
                                 Meta Mask
                             </h3>
-
-                            <p className=''>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                            </p>
                         </div>
 
                         <div className='space-y-6 text-center p-6 bg-yellow-50 rounded-md text-blue-100'>
@@ -379,10 +369,6 @@ export default function Home() {
                             <h3 className='font-poppins font-medium text-xl'>
                                 Bitski
                             </h3>
-
-                            <p className=''>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                            </p>
                         </div>
 
                         <div className='space-y-6 text-center p-6 bg-yellow-50 rounded-md text-blue-100'>
@@ -391,10 +377,6 @@ export default function Home() {
                             <h3 className='font-poppins font-medium text-xl'>
                                 Fortmatic
                             </h3>
-
-                            <p className=''>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                            </p>
                         </div>
 
                         <div className='space-y-6 text-center p-6 bg-yellow-50 rounded-md text-blue-100'>
@@ -403,22 +385,14 @@ export default function Home() {
                             <h3 className='font-poppins font-medium text-xl'>
                                 Wallet Connect
                             </h3>
-
-                            <p className=''>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                            </p>
                         </div>
 
-                        <div className='space-y-6 text-center p-6 bg-yellow-50 rounded-md text-blue-100'>
+                        <div className='space-y-6 text-center p-4 bg-yellow-50 rounded-md text-blue-100'>
                             <img src={coinbase} alt="" className='flex mx-auto' />
 
                             <h3 className='font-poppins font-medium text-xl'>
                                 Coinbase Wallet
                             </h3>
-
-                            <p className=''>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                            </p>
                         </div>
 
                         <div className='space-y-6 text-center p-6 bg-yellow-50 rounded-md text-blue-100'>
@@ -427,10 +401,6 @@ export default function Home() {
                             <h3 className='font-poppins font-medium text-xl'>
                                 Authereum
                             </h3>
-
-                            <p className=''>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                            </p>
                         </div>
 
                         <div className='space-y-6 text-center p-6 bg-yellow-50 rounded-md text-blue-100'>
@@ -439,22 +409,14 @@ export default function Home() {
                             <h3 className='font-poppins font-medium text-xl'>
                                 Kaikas
                             </h3>
-
-                            <p className=''>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                            </p>
                         </div>
 
-                        <div className='space-y-6 text-center p-6 bg-yellow-50 rounded-md text-blue-100'>
+                        <div className='space-y-6 text-center p-5 bg-yellow-50 rounded-md text-blue-100'>
                             <img src={torus} alt="" className='flex mx-auto' />
 
                             <h3 className='font-poppins font-medium text-xl'>
                                 Torus
                             </h3>
-
-                            <p className=''>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                            </p>
                         </div>
 
                     </div>
@@ -477,17 +439,9 @@ export default function Home() {
 
                 </div>
 
-                <div className='lg:flex items-center justify-between pt-8 space-y-5'>
+                <div className='flex items-center justify-center pt-8 space-y-5'>
 
-                    <div className='flex flex-col items-center justify-center gap-y-8'>
-
-                        <h2 className='text-2xl font-poppins text-center font-semibold text-blue-100'>
-                            Token Distribution
-                        </h2>
-
-                        <p className='text-gray-200 lg:w-1/2 text-center'>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget quam est, elit venenatis nulla.
-                        </p>
+                    <div className=''>
 
                         <img src={token_1} alt="" className='flex mx-auto w-10/12 md:hidden' />
 
@@ -497,7 +451,7 @@ export default function Home() {
 
                                 <div data-aos='fade-left' className='flex items-center gap-x-2'>
                                     <div className='text-right'>
-                                        <p>10%</p>
+                                        <p>40%</p>
                                         <p>Presale Token</p>
                                     </div>
 
@@ -517,8 +471,8 @@ export default function Home() {
                                     </div>
 
                                     <div className='text-left'>
-                                        <p>30%</p>
-                                        <p>    Token Sales</p>
+                                        <p>20%</p>
+                                        <p>Liquidity</p>
                                     </div>
                                 </div>
 
@@ -527,8 +481,8 @@ export default function Home() {
                             <div data-aos='fade-left' className='flex items-center gap-x-2 absolute mt-36 -ml-6'>
 
                                 <div className='text-right'>
-                                    <p>15%</p>
-                                    <p>Presale Token</p>
+                                    <p>5%</p>
+                                    <p>Marketing</p>
                                 </div>
 
                                 <svg width="77" height="2" viewBox="0 0 77 2" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -546,8 +500,8 @@ export default function Home() {
 
                                 <div data-aos='fade-left' className='flex items-center gap-x-2'>
                                     <div className='text-right'>
-                                        <p>20%</p>
-                                        <p>Team & Advisor</p>
+                                        <p>3%</p>
+                                        <p>DEV</p>
                                     </div>
 
                                     <div>
@@ -565,109 +519,8 @@ export default function Home() {
 
 
                                     <div className='text-left'>
-                                        <p>25%</p>
-                                        <p>Reserve Fund</p>
-                                    </div>
-                                </div>
-
-                            </div>
-
-                        </div>
-
-                    </div>
-
-                    <div className='flex flex-col items-center justify-center gap-y-8'>
-
-                        <h2 className='text-2xl font-poppins text-center font-semibold text-blue-100'>
-                            Token Allocation
-                        </h2>
-
-                        <p className='text-gray-200 lg:w-1/2 text-center'>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget quam est, elit venenatis nulla.
-                        </p>
-
-                        <img src={token_2} alt="" className='flex mx-auto w-10/12 md:hidden' />
-
-                        <div className='chart_2 md:block hidden'>
-
-                            <div className='flex items-center justify-between gap-x-36 translate-y-24'>
-
-                                <div data-aos='fade-left' className='flex items-center gap-x-2'>
-                                    <div className='text-right'>
-                                        <p>20%</p>
-                                        <p>Presale Token</p>
-                                    </div>
-
-                                    <div>
-                                        <svg width="110" height="31" viewBox="0 0 110 31" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M0 1H76.8867L109 30" stroke="#636770" strokeWidth="2" strokeDasharray="2 2" />
-                                        </svg>
-                                    </div>
-
-                                </div>
-
-                                <div data-aos='fade-right' className='flex items-center gap-x-2'>
-                                    <div>
-                                        <svg width="123" height="31" viewBox="0 0 123 31" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M123 1H79.9717H36.9433L0.999999 30" stroke="#636770" strokeWidth="2" strokeDasharray="2 2" />
-                                        </svg>
-                                    </div>
-
-                                    <div className='text-left'>
-                                        <p>35%</p>
-                                        <p>Token Sales</p>
-                                    </div>
-                                </div>
-
-                            </div>
-
-                            <div className=''>
-
-                                <div data-aos='fade-left' className='flex items-center gap-x-2 absolute mt-56 -ml-6'>
-                                    <div className='text-right'>
-                                        <p>15%</p>
-                                        <p>Team Advisor</p>
-                                    </div>
-
-                                    <svg width="77" height="2" viewBox="0 0 77 2" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M0 1L41.4315 1L77 1.00001" stroke="#636770" strokeWidth="2" strokeDasharray="2 2" />
-                                    </svg>
-                                </div>
-
-                                <div data-aos='fade-right' className='flex items-center gap-x-2 absolute right-0 mt-56 mr-24'>
-
-                                    <svg width="77" height="2" viewBox="0 0 77 2" fill="none" xmlns="http://www.w3.org/2000/svg" className=''>
-                                        <path d="M0 1L41.4315 1L77 1.00001" stroke="#636770" strokeWidth="2" strokeDasharray="2 2" />
-                                    </svg>
-
-                                    <div className='text-left'>
-                                        <p>12%</p>
-                                        <p>Presale Token</p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div className=''>
-
-                                <img src={chart_2} alt="" className='flex mx-auto w-8/12' />
-
-                            </div>
-
-                            <div className='flex items-center justify-between -translate-y-20'>
-
-                                <div className=''>
-
-                                </div>
-
-                                <div data-aos='fade-right' className='flex items-center gap-x-2'>
-                                    <svg width="119" height="29" viewBox="0 0 119 29" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M119 28H40.2039L0.999997 0.999999" stroke="#636770" strokeWidth="2" strokeDasharray="2 2" />
-                                    </svg>
-
-
-                                    <div className='text-left'>
-                                        <p>18%</p>
-                                        <p>Reserve Fund</p>
+                                        <p>30%</p>
+                                        <p>Burn</p>
                                     </div>
                                 </div>
 
@@ -714,14 +567,13 @@ export default function Home() {
                                     className="absolute -mt-5 lg:flex flex-col items-center justify-center hidden"
                                 >
 
-
-                                    <p className='text-center -mt-6' style={{ color: '#00C4F4' }}>
-                                        Mid of Q4 2021
+                                    <p className='text-center -mt-7' style={{ color: '#00C4F4' }}>
+                                        Mid of 2023
                                     </p>
 
                                     <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <circle opacity="0.1" cx="16" cy="16" r="16" fill="#00C4F4" />
-                                        <circle cx="16" cy="16" r="8" fill="#00C4F4" className='animate-pulse' />
+                                        <circle cx="16" cy="16" r="8" fill="#00C4F4" className='' />
                                     </svg>
 
                                     <svg width="1" height="219" viewBox="0 0 1 219" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -734,12 +586,13 @@ export default function Home() {
                                     data-aos="flip-right"
                                     className="text-gray-50 lg:pl-20 lg:w-60"
                                 >
-                                    <h5 className="text-2xl py-4 text-blue-100 font-semibold">Concept</h5>
+                                    <h5 className="text-2xl py-4 text-blue-100 font-semibold">Launching</h5>
 
                                     <p className='leading-loose'>
-                                        EVM support for parachains
-                                        SubQuery Academy
-                                        Proof of indexing
+                                        Presale Launch
+                                        CoinGecko Listing
+                                        Marketing Campaign
+                                        CoinMarketCap Listing
                                     </p>
 
                                 </div>
@@ -751,13 +604,13 @@ export default function Home() {
                                     className="absolute -mt-5 lg:flex flex-col items-center justify-center hidden"
                                 >
 
-                                    <p className='text-center -mt-6' style={{ color: '#FF9700' }}>
-                                        Mid Q1 2022
+                                    <p className='text-center -mt-7' style={{ color: '#FF9700' }}>
+                                        Mid of 2023
                                     </p>
 
                                     <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <circle opacity="0.1" cx="16" cy="16" r="16" fill="#FF9700" />
-                                        <circle cx="16" cy="17" r="8" fill="#FF9700" className='animate-pulse' />
+                                        <circle cx="16" cy="17" r="8" fill="#FF9700" className='' />
                                     </svg>
 
                                     <svg width="1" height="219" viewBox="0 0 1 219" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -770,12 +623,14 @@ export default function Home() {
                                     data-aos="flip-right"
                                     className="text-gray-50 lg:pl-16 lg:w-60"
                                 >
-                                    <h5 className="text-2xl py-4 text-blue-100 font-semibold">App beta test</h5>
+                                    <h5 className="text-2xl py-4 text-blue-100 font-semibold">Growth</h5>
 
                                     <p className='leading-loose'>
-                                        Public testnet launch
-                                        SubQuery Network Explorer and dApp
-                                        Point-in-time indexing
+                                        Audit Certik
+                                        Skynet at CertiK
+                                        10,000 Holders
+                                        Marketing Campaign
+                                        Listing BabydogeSwap
                                     </p>
 
                                 </div>
@@ -787,13 +642,13 @@ export default function Home() {
                                     className="absolute -mt-5 lg:flex flex-col items-center justify-center hidden"
                                 >
 
-                                    <p className='text-center -mt-6' style={{ color: '#007FF4' }}>
-                                        Mid Q1 2022
+                                    <p className='text-center -mt-7' style={{ color: '#007FF4' }}>
+                                        Mid of 2023
                                     </p>
 
                                     <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <circle opacity="0.1" cx="16" cy="16" r="16" fill="#007FF4" />
-                                        <circle cx="16" cy="17" r="8" fill="#007FF4" className='animate-pulse' />
+                                        <circle cx="16" cy="17" r="8" fill="#007FF4" className='' />
                                     </svg>
 
                                     <svg width="1" height="219" viewBox="0 0 1 219" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -806,12 +661,13 @@ export default function Home() {
                                     data-aos="flip-right"
                                     className="text-gray-50 lg:pl-16 lg:w-60"
                                 >
-                                    <h5 className="text-2xl py-4 text-blue-100 font-semibold">Alpha test</h5>
+                                    <h5 className="text-2xl py-4 text-blue-100 font-semibold">Expansion</h5>
 
                                     <p className='leading-loose'>
-                                        Launch of the SubQuery Foundation
-                                        Finalise research for other Layer-1 chains
-                                        Liquidity mining program
+                                        Floki CEO Burn Event
+                                        15.000 Holder
+                                        Listing Bitmard
+                                        Listing ETH
                                     </p>
 
                                 </div>
@@ -823,13 +679,13 @@ export default function Home() {
                                     className="absolute -mt-5 lg:flex flex-col items-center justify-center hidden"
                                 >
 
-                                    <p className='text-center -mt-6' style={{ color: '#007FF4' }}>
-                                        Mid Q1 2022
+                                    <p className='text-center -mt-7' style={{ color: '#007FF4' }}>
+                                        Mid of 2023
                                     </p>
 
                                     <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <circle cx="16" cy="16" r="16" fill="#FF4581" fillOpacity="0.1" />
-                                        <circle cx="16" cy="17" r="8" fill="#FF4581" className='animate-pulse' />
+                                        <circle cx="16" cy="17" r="8" fill="#FF4581" className='' />
                                     </svg>
 
                                     <svg width="1" height="219" viewBox="0 0 1 219" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -842,10 +698,13 @@ export default function Home() {
                                     data-aos="flip-right"
                                     className="text-gray-50 lg:pl-16 lg:w-60"
                                 >
-                                    <h5 className="text-2xl py-4 text-blue-100 font-semibold">Operational</h5>
+                                    <h5 className="text-2xl py-4 text-blue-100 font-semibold">Utility</h5>
 
                                     <p className='leading-loose'>
-                                        SubQuery launches its own parachainSubQuery Foundation
+                                        50.000 Holder
+                                        Launch event SWAP
+                                        Launch event NFTs
+                                        Influencer Awareness Partnerships
                                     </p>
 
                                 </div>
@@ -858,7 +717,7 @@ export default function Home() {
 
             </div>
 
-            {/* OUr team */}
+            {/* Our team */}
 
             <img src={uneven_1} alt="top" className='bg-black-50' />
             <div id='team' className="lg:px-20 lg:py-20 py-6 px-5 bg-black-50 text-white-100 relative z-20">
@@ -881,22 +740,18 @@ export default function Home() {
                             </span>
                         </h4>
                         <h2 className='md:text-4xl text-2xl font-poppins font-semibold lg:w-1/3 text-center'>
-                            The Leadership Team
+                            The Parnetship Team
                         </h2>
 
 
-                        <div className='grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-16 items-center justify-center mt-8 pb-16'>
+                        <div className='grid lg:grid-cols-6 md:grid-cols-3 grid-cols-1 gap-6 items-center justify-center mt-8 pb-16'>
 
                             <div className='space-y-5 text-center'>
                                 <img src={team} alt="" className='flex mx-auto' />
 
                                 <h3 className='font-poppins font-medium text-xl'>
-                                    Cameron Williamson
+                                    Certik
                                 </h3>
-
-                                <p className='text-gray-50'>
-                                    Founder & CO
-                                </p>
 
                             </div>
 
@@ -904,12 +759,8 @@ export default function Home() {
                                 <img src={team} alt="" className='flex mx-auto' />
 
                                 <h3 className='font-poppins font-medium text-xl'>
-                                    Eleanor Pena
+                                    Bitmart
                                 </h3>
-
-                                <p className='text-gray-50'>
-                                    Head of Design
-                                </p>
 
                             </div>
 
@@ -917,12 +768,8 @@ export default function Home() {
                                 <img src={team} alt="" className='flex mx-auto' />
 
                                 <h3 className='font-poppins font-medium text-xl'>
-                                    Bessie Cooper
+                                    Lbank
                                 </h3>
-
-                                <p className='text-gray-50'>
-                                    Vp People
-                                </p>
 
                             </div>
 
@@ -930,12 +777,26 @@ export default function Home() {
                                 <img src={team} alt="" className='flex mx-auto' />
 
                                 <h3 className='font-poppins font-medium text-xl'>
-                                    Darlene Robertson
+                                    TDoge
                                 </h3>
 
-                                <p className='text-gray-50'>
-                                    Product Manager
-                                </p>
+                            </div>
+
+                            <div className='space-y-5 text-center'>
+                                <img src={team} alt="" className='flex mx-auto' />
+
+                                <h3 className='font-poppins font-medium text-xl'>
+                                    Pinksale
+                                </h3>
+
+                            </div>
+
+                            <div className='space-y-5 text-center'>
+                                <img src={team} alt="" className='flex mx-auto' />
+
+                                <h3 className='font-poppins font-medium text-xl'>
+                                    Dexview
+                                </h3>
 
                             </div>
 
