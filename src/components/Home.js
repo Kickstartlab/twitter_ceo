@@ -746,7 +746,7 @@ export default function Home() {
                                 </span>
                             </h4>
                             <h2 className='md:text-4xl text-2xl font-poppins font-semibold text-center uppercase'>
-                                Parnertship
+                                Partnership
                             </h2>
 
 
