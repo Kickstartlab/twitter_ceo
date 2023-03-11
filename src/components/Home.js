@@ -437,7 +437,7 @@ export default function Home() {
                 <div className='lg:flex items-center justify-center gap-6'>
 
                     <h2 className='lg:text-5xl text-2xl font-poppins text-center font-semibold text-blue-100'>
-                        TOKEN DISTRIBUTION
+                        TOKENOMICS
                     </h2>
 
                     <img src={token} alt="" className='lg:block hidden' />
@@ -446,22 +446,22 @@ export default function Home() {
 
                 <div className='flex items-center justify-center pt-8 space-y-5'>
 
-                    <div className=''>
+                    <div className='bg-white-50 rounded-xl sm:p-12 p-5'>
 
-                        <img src={token_1} alt="" className='flex mx-auto w-10/12 md:hidden' />
+                        {/* <img src={token_1} alt="" className='flex mx-auto w-10/12 md:hidden' /> */}
 
-                        <div className='chart_1 md:block hidden'>
+                        <div className='chart_1'>
 
-                            <div className='flex items-center justify-between gap-x-36 translate-y-24'>
+                            <div className='flex items-center justify-between sm:gap-x-44 gap-x-20 sm:translate-y-24 translate-y-16'>
 
                                 <div data-aos='fade-left' className='flex items-center gap-x-2'>
-                                    <div className='text-right'>
-                                        <p>3%</p>
-                                        <p>Dev</p>
+                                    <div className='text-right sm:text-lg text-xs'>
+                                        <p>8%</p>
+                                        <p>CEX listing</p>
                                     </div>
 
                                     <div>
-                                        <svg width="110" height="31" viewBox="0 0 110 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <svg width="110" height="31" className='sm:w-full w-8/12' viewBox="0 0 110 31" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <path d="M0 1H76.8867L109 30" stroke="#636770" strokeWidth="2" strokeDasharray="2 2" />
                                         </svg>
                                     </div>
@@ -470,12 +470,12 @@ export default function Home() {
 
                                 <div data-aos='fade-right' className='flex items-center gap-x-2'>
                                     <div>
-                                        <svg width="123" height="31" viewBox="0 0 123 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <svg width="123" height="31" className='sm:w-full w-8/12' viewBox="0 0 123 31" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <path d="M123 1H79.9717H36.9433L0.999999 30" stroke="#636770" strokeWidth="2" strokeDasharray="2 2" />
                                         </svg>
                                     </div>
 
-                                    <div className='text-left'>
+                                    <div className='text-left sm:text-lg text-xs'>
                                         <p>40%</p>
                                         <p>Presale</p>
                                     </div>
@@ -483,34 +483,22 @@ export default function Home() {
 
                             </div>
 
-                            <div data-aos='fade-left' className='flex items-center gap-x-2 absolute mt-36 -ml-6'>
-
-                                <div className='text-right'>
-                                    <p>5%</p>
-                                    <p>Marketing</p>
-                                </div>
-
-                                <svg width="77" height="2" viewBox="0 0 77 2" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M0 1L41.4315 1L77 1.00001" stroke="#636770" strokeWidth="2" strokeDasharray="2 2" />
-                                </svg>
-                            </div>
-
                             <div className=''>
 
-                                <img src={chart_1} alt="" className='flex mx-auto w-9/12' />
+                                <img src={chart_1} alt="" className='flex mx-auto sm:w-full w-8/12 lg:rotate-12' />
 
                             </div>
 
-                            <div className='flex items-center justify-between -translate-y-24'>
+                            <div className='flex items-center justify-between sm:gap-x-0 gap-x-16 sm:-translate-y-28 -translate-y-12'>
 
                                 <div data-aos='fade-left' className='flex items-center gap-x-2'>
-                                    <div className='text-right'>
+                                    <div className='text-right sm:text-lg text-xs'>
                                         <p>22%</p>
                                         <p>Liquidity</p>
                                     </div>
 
                                     <div>
-                                        <svg width="101" height="25" viewBox="0 0 101 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <svg width="101" height="25" className='sm:w-full w-10/12' viewBox="0 0 101 25" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <path d="M0 24H63.2787L100 1" stroke="#636770" strokeWidth="2" strokeDasharray="2 2" />
                                         </svg>
                                     </div>
@@ -518,12 +506,12 @@ export default function Home() {
                                 </div>
 
                                 <div data-aos='fade-right' className='flex items-center gap-x-2'>
-                                    <svg width="119" height="29" viewBox="0 0 119 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <svg width="119" height="29" className='sm:w-full w-5/12' viewBox="0 0 119 29" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M119 28H40.2039L0.999997 0.999999" stroke="#636770" strokeWidth="2" strokeDasharray="2 2" />
                                     </svg>
 
 
-                                    <div className='text-left'>
+                                    <div className='text-left sm:text-lg text-xs'>
                                         <p>30%</p>
                                         <p>Burn</p>
                                     </div>
