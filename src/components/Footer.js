@@ -36,7 +36,7 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className='lg:py-12 py-6'>
+        <div className='lg:py-12 py-6 lg:w-9/12 flex flex-col mx-auto'>
 
           <div className='lg:flex items-center justify-between'>
 

@@ -8,7 +8,6 @@ import p_4 from '../assets/p_4.png';
 import logo_1 from '../assets/logo_1.png';
 import logo_2 from '../assets/logo_2.png';
 import logo_3 from '../assets/logo_3.png';
-import token_1 from '../assets/token_1.png';
 import metamask from '../assets/metamask.png';
 import fortmatic from '../assets/fortmatic.png';
 import bitski from '../assets/bitski.png';
@@ -22,7 +21,6 @@ import team_1 from '../assets/team_1.png';
 import team_2 from '../assets/team_2.png';
 import team_3 from '../assets/team_3.png';
 import team_4 from '../assets/team_4.png';
-
 import swap from '../assets/swap.png';
 import chart_1 from '../assets/chart_1.png';
 import uneven_1 from '../assets/uneven_1.png';
@@ -444,9 +442,19 @@ export default function Home() {
 
                 </div>
 
-                <div className='flex items-center justify-center pt-8 space-y-5'>
+                <div className='lg:flex items-center justify-between pt-8 space-y-5'>
 
-                    <div className='bg-white-50 rounded-xl sm:p-12 p-5'>
+                    <div className='lg:w-1/2'>
+                        <h4 className='lg:text-4xl text-2xl font-poppins font-semibold text-blue-100'>
+                            LOREM IPSUM
+                        </h4>
+
+                        <p className='lg:w-7/12 pt-5'>
+                            Horem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+                        </p>
+                    </div>
+
+                    <div className=''>
 
                         {/* <img src={token_1} alt="" className='flex mx-auto w-10/12 md:hidden' /> */}
 
@@ -485,13 +493,13 @@ export default function Home() {
 
                             <div className=''>
 
-                                <img src={chart_1} alt="" className='flex mx-auto sm:w-full w-8/12 lg:rotate-12' />
+                                <img src={chart_1} alt="" className='flex mx-auto sm:w-full w-8/12' />
 
                             </div>
 
-                            <div className='flex items-center justify-between sm:gap-x-0 gap-x-16 sm:-translate-y-28 -translate-y-12'>
+                            <div className='flex justify-between sm:gap-x-0 gap-x-16 sm:-translate-y-32 -translate-y-12'>
 
-                                <div data-aos='fade-left' className='flex items-center gap-x-2'>
+                                <div data-aos='fade-left' className='flex items-center gap-x-2 sm:-mt-32 -mt-12 sm:-ml-12'>
                                     <div className='text-right sm:text-lg text-xs'>
                                         <p>22%</p>
                                         <p>Liquidity</p>
@@ -539,7 +547,7 @@ export default function Home() {
                     </p>
 
                     <h2 className='md:text-3xl text-xl font-poppins text-center font-semibold text-blue-100'>
-                        Bigtech Strategy and<br></br> Project Plan
+                        Strategy and Project<br></br> Plan
                     </h2>
 
                     <div className="lg:mt-20 mt-5">
@@ -775,15 +783,11 @@ export default function Home() {
 
             <div id='faq' className="bg-white-50">
 
-                <div data-aos='slide-down' className='absolute right-0 left-0 -mt-32'>
+                <div className='absolute right-0 left-0 mt-12'>
                     <img src={bg_faq} alt="" className='flex mx-auto w-1/2' />
                 </div>
 
                 <div className="lg:py-20 py-5 lg:px-20 px-5 container mx-auto relative z-20">
-
-                    <div className='absolute left-0 mt-28 ml-16 lg:block hidden'>
-                        <img src={vector_1} alt="Logo" className='w-10/12' />
-                    </div>
 
                     <div data-aos="fade-up" className='lg:w-8/12 flex flex-col mx-auto'>
 
@@ -797,6 +801,10 @@ export default function Home() {
                             ))}
                         </div>
 
+                    </div>
+
+                    <div className='absolute left-0 -mt-16 ml-28 lg:block hidden'>
+                        <img src={vector_1} alt="Logo" className='w-10/12' />
                     </div>
 
                 </div>
