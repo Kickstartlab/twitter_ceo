@@ -23,6 +23,7 @@ import team_3 from '../assets/team_3.png';
 import team_4 from '../assets/team_4.png';
 import swap from '../assets/swap.png';
 import chart_1 from '../assets/chart_1.png';
+import chart_2 from '../assets/chart_2.png';
 import uneven_1 from '../assets/uneven_1.png';
 import uneven from '../assets/uneven.png';
 import bg_faq from '../assets/bg_faq.png';
@@ -32,6 +33,7 @@ import mobile from '../assets/mobile.png';
 import token from '../assets/token.png';
 import top from '../assets/top.png';
 import ceo from '../assets/ceo.png';
+import vector from '../assets/vector.png';
 import bg_top from '../assets/bg_top.png';
 import Accordion from './Accordion';
 import Aos from 'aos';
@@ -195,58 +197,6 @@ export default function Home() {
                         </div>
 
                         <img src={swap} alt="" className='mt-5 flex mx-auto' />
-
-                        {/* <div className='bg-yellow-50 p-5 rounded-xl mt-5'>
-
-                            <div>
-                                <div className='flex justify-between items-center pb-1 '>
-
-                                    <p className='text-sm text-gray-100'>
-                                        You Pay
-                                    </p>
-
-                                    <div className='text-sm text-white-100 flex items-center gap-x-2'>
-
-                                        <img src={bnb} alt="" className='bnb' />
-
-                                        You Pay
-
-
-                                        <svg width="10" height="6" viewBox="0 0 10 6" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M1 1L5 5L9 1" stroke="white" strokeWidth="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                                        </svg>
-
-                                    </div>
-
-                                </div>
-
-                                <div className='text-center text-white-100 rounded-lg bg-blue-200 p-5 w-full'>
-                                    0.35
-                                </div>
-
-                            </div>
-
-                            <div>
-                                <div className='flex justify-between items-center pt-3 '>
-
-                                    <p className='text-sm text-gray-50'>
-                                        You Pay
-                                    </p>
-
-                                    <p className='text-sm text-gray-50'>
-                                        You Pay
-                                    </p>
-
-                                </div>
-
-                                <div className='text-center text-white-100 rounded-lg bg-blue-200 p-5 w-full'>
-                                    0.35
-                                </div>
-
-                            </div>
-
-
-                        </div> */}
 
                     </div>
 
@@ -442,17 +392,7 @@ export default function Home() {
 
                 </div>
 
-                <div className='lg:flex items-center justify-between pt-8 space-y-5'>
-
-                    <div className='lg:w-1/2'>
-                        <h4 className='lg:text-4xl text-2xl font-poppins font-semibold text-blue-100'>
-                            LOREM IPSUM
-                        </h4>
-
-                        <p className='lg:w-7/12 pt-5'>
-                            Horem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
-                        </p>
-                    </div>
+                <div className='lg:flex items-center justify-between pt-8 space-y-3 lg:px-16'>
 
                     <div className=''>
 
@@ -531,6 +471,11 @@ export default function Home() {
 
                     </div>
 
+                    <a href='https://twitter.com/TCEOToken' className=''>
+
+                        <img src={chart_2} alt="" className='sm:flex mx-auto rotate w-6/12' />
+
+                    </a>
                 </div>
 
 
@@ -788,6 +733,10 @@ export default function Home() {
                 </div>
 
                 <div className="lg:py-20 py-5 lg:px-20 px-5 container mx-auto relative z-20">
+
+                    <div className='absolute right-0 mr-28 lg:block hidden'>
+                        <img src={vector} alt="Logo" className='w-10/12' />
+                    </div>
 
                     <div data-aos="fade-up" className='lg:w-8/12 flex flex-col mx-auto'>
 
