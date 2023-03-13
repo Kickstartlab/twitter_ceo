@@ -571,13 +571,12 @@ export default function Home() {
                                 >
                                     <h5 className="text-2xl py-4 text-blue-100 font-semibold">Growth</h5>
 
-                                    <p className='leading-loose'>
-                                        Audit Certik
-                                        Skynet at CertiK
-                                        10,000 Holders
-                                        Marketing Campaign
-                                        Listing BabydogeSwap
-                                    </p>
+                                    <ul className='leading-loose'>
+                                        <li>Audit Certik Skynet at CertiK </li>
+                                        <li>10,000 Holders</li>
+                                        <li>Marketing Campaign </li>
+                                        <li>Listing BabydogeSwap</li>
+                                    </ul>
 
                                 </div>
                             </div>
@@ -609,12 +608,12 @@ export default function Home() {
                                 >
                                     <h5 className="text-2xl py-4 text-blue-100 font-semibold">Expansion</h5>
 
-                                    <p className='leading-loose'>
-                                        Floki CEO Burn Event
-                                        15.000 Holder
-                                        Listing Bitmard
-                                        Listing ETH
-                                    </p>
+                                    <ul className='leading-loose'>
+                                        <li>Twitter CEO burn Event</li>
+                                        <li>15.000 Holder</li>
+                                        <li> Listing Bitmart</li>
+                                        <li> Listing ETH</li>
+                                    </ul>
 
                                 </div>
                             </div>
@@ -646,12 +645,12 @@ export default function Home() {
                                 >
                                     <h5 className="text-2xl py-4 text-blue-100 font-semibold">Utility</h5>
 
-                                    <p className='leading-loose'>
-                                        50.000 Holder
-                                        Launch event SWAP
-                                        Launch event NFTs
-                                        Influencer Awareness Partnerships
-                                    </p>
+                                    <ul className='leading-loose'>
+                                        <li>50.000 Holder </li>
+                                        <li>Launch SWAP </li>
+                                        <li>Launch NFTs Market</li>
+                                        <li>Influencer Awareness Partnerships</li>
+                                    </ul>
 
                                 </div>
                             </div>
